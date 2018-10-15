@@ -15,21 +15,32 @@ html{
   background-size: cover;
   height: 30rem;
   width: 100%;
-  justify-content: space-between;
 }
 
 .headercontainer{
+  display: flex;
   width: 960px;
   height: 1rem;
+  margin-top: 1rem;
   margin-left: 520px;
   background-color: cadetblue;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1rem;
-
+  justify-content: space-between;
 }
 
-.headercontainer2{
-
+.headerimg{
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 2rem;
 }
+
+.headercap{
+
+  color: white;
+}
+
 a{
   padding-right: 2rem;
   padding-top: 1rem;

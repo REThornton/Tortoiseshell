@@ -1,0 +1,87 @@
+/*MEDIA QUERIES*/
+
+/*GENERAL STYLE*/
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+/*HEADER/LOGO/BANNER/MAIN IMAGE/FLEXCONTAINER*/
+
+.FLEXCONTAINER1{
+  display: flex;
+  background-image: url(../glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.headercontainer{
+  width: 960px;
+  height: 1rem;
+  margin-left: 520px;
+  background-color: cadetblue;
+  font-size: 1rem;
+
+}
+
+.headercontainer2{
+
+}
+a{
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*THREE OPTIONS/FLEXCONTAINER*/
+
+.FLEXCONTAINER-ICONS{
+  display: flex;
+  width: 960px;
+  height: 4rem;
+  margin-left: 520px;
+  margin-top: 3rem;
+  justify-content: space-around;
+}
+
+.ICON-IMAGES{
+  display: inline-block;
+}
+
+.PAPERICON{
+  width: 3.5rem;
+  margin-right: 6rem;
+
+}
+.RULERICON{
+  width: 5rem;
+  margin-right: 6rem;
+}
+.TRUCKICON{
+  width: 5rem;
+}
+
+.FLEXCONTAINER-CAPTIONS{
+  display: flex;
+  width: 960px;
+  height: 4rem;
+  margin-left: 520px;
+  margin-bottom: 3rem;
+  justify-content: space-around;
+}
+
+.ICON-CAPTIONS{
+  display: inline-flex;
+  align-items: center;
+}
+
+/*PHILOSOPHY/FLEXCONTAINER*/
+
+
+/*APPOINTMENTS/FLEXCONTAINER*/
+
+
+/*FOOTER/FLEXCONTAINER*/

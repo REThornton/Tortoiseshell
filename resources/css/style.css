@@ -78,10 +78,70 @@ a{
   align-items: center;
 }
 
-/*PHILOSOPHY/FLEXCONTAINER*/
+/*PHILOSOPHY/APPOINTMENTS/FLEXCONTAINER*/
 
+.FLEXCONTAINER-PHIL-APP{
+  display: flex;
+  width: 960px;
+  margin-left: 520px;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
 
-/*APPOINTMENTS/FLEXCONTAINER*/
+.APP-ITEM{
+  display: inline-block;
+}
 
+.APP{
+  width: 10rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.FLEXCONTAINER-PHIL-APP-PAR{
+  display: flex;
+  width: 960px;
+  margin-left: 520px;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+}
+
+.PAR-ITEM{
+  display: inline-block;
+}
+
+.PAR{
+  width: 35%;
+}
 
 /*FOOTER/FLEXCONTAINER*/
+
+.FLEXCONTAINER-FOOT{
+  display: flex;
+  margin-top: 5rem;
+  font-size: 1rem;
+  width: 960px;
+  margin-left: 520px;
+  background-color: azure;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.footercontainer{
+
+}
+
+.footerimg{
+  display: inline-block;
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+.footercap{
+  display: inline-block;
+}

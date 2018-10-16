@@ -27,7 +27,6 @@ html{
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1rem;
-  justify-content: space-between;
 }
 
 .headerimg{
@@ -37,14 +36,14 @@ html{
 }
 
 .headercap{
-
+  padding-right: 2rem;
   color: white;
+  margin-left: 400px;
 }
 
-a{
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.headertitle{
+  color: white;
+  align-items: left;
 }
 
 /*THREE OPTIONS/FLEXCONTAINER*/

@@ -104,14 +104,15 @@ html{
 
 .FLEXCONTAINER-PHIL{
   display: flex;
-  width: 960px;
-  margin-left: 520px;
-  
-  border: 5px solid red;
+  justify-content: space-between;
+  width: 800px;
+  margin-left: 600px;
+  flex-wrap: wrap;
 }
 
 .APP{
   margin-bottom: 1rem;
+  margin-right: 50px;
   width: 10rem;
   background-color: cadetblue;
   color: white;
@@ -120,10 +121,10 @@ html{
   padding-bottom: 0.5rem;
   font-weight: bold;
   font-size: 1rem;
-  border: 5px solid red;
 }
 .APP2{
   margin-bottom: 1rem;
+  margin-right: 120px;
   width: 10rem;
   background-color: cadetblue;
   color: white;
@@ -132,20 +133,15 @@ html{
   padding-bottom: 0.5rem;
   font-weight: bold;
   font-size: 1rem;
-  margin-left: 1000px;
-  border: 5px solid red;
 }
 
 .PAR{
   padding-right: 5%;
   width: 35%;
-  border: 5px solid red;
 }
 .PAR2{
   padding-right: 5%;
   width: 35%;
-  margin-left: 1000px;
-  border: 5px solid red;
 }
 
 /*FOOTER/FLEXCONTAINER*/

@@ -4,6 +4,7 @@
 html{
   font-size: 18px;
   font-family: Helvetica;
+  line-height: 1.4;
 }
 
 /*HEADER/LOGO/BANNER/MAIN IMAGE/FLEXCONTAINER*/
@@ -44,6 +45,17 @@ html{
 .headertitle{
   color: white;
   align-items: left;
+}
+
+.look{
+  height: 1rem;
+  margin-top: 10rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: white;
+  margin-left: -636px;
 }
 
 /*THREE OPTIONS/FLEXCONTAINER*/
@@ -95,21 +107,20 @@ html{
   width: 960px;
   margin-left: 520px;
   margin-bottom: 1rem;
-  justify-content: space-between;
-}
+  border: 5px solid red;
 
-.APP-ITEM{
-  display: inline-block;
 }
 
 .APP{
+  display: inline-block;
   width: 10rem;
   background-color: cadetblue;
-  font-weight: bold;
-  font-size: 1rem;
   padding-left: 1.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  padding-right: 5%;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .FLEXCONTAINER-PHIL-APP-PAR{
@@ -117,7 +128,7 @@ html{
   width: 960px;
   margin-left: 520px;
   margin-bottom: 5rem;
-  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .PAR-ITEM{
@@ -125,7 +136,9 @@ html{
 }
 
 .PAR{
+  display: inline-block;
   width: 35%;
+  padding-right: 5%;
 }
 
 /*FOOTER/FLEXCONTAINER*/

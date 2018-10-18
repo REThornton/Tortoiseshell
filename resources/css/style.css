@@ -1,4 +1,69 @@
-/*MEDIA QUERIES*/
+/*MEDIA QUERIES-TABLET PORTRAIT*/
+
+@media only screen and (max-width: 768px){
+  .FLEXCONTAINER1{
+    height: 22rem;
+    width: 768px;
+  }
+  .headercontainer{
+    margin-top: 0;
+    margin-left: 0;
+    width: 768px;
+  }
+  .look{
+    height: 1rem;
+    margin-top: 5rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    margin-right: 2rem;
+    margin-left: 0;
+  }
+  .FLEXCONTAINER-ICONS{
+    width: 768px;
+    margin-left: 0;
+    justify-content: center;
+  }
+  .FLEXCONTAINER-CAPTIONS{
+    width: 768px;
+    margin-left: 0;
+    justify-content: center;
+  }
+  .FLEXCONTAINER-PHIL{
+    width: 768px;
+    margin-left: 0;
+  }
+  .FLEXCONTAINER-FOOT{
+    width: 768px;
+  }
+  .APP{
+    margin-right: 0;
+  }
+  .APP2{
+    margin-right: 0;
+  }
+
+}
+
+/*MEDIA QUERIES-MOBILE PHONE*/
+
+@media only screen and (max-width: 480px){
+  .FLEXCONTAINER1{
+    background-position: 20%;
+    height: 17rem;
+    width: 100%;
+  }
+  .headercap{
+    margin-left: 0;
+    display: none;
+  }
+  .look{
+    height: 1rem;
+    margin-top: 9rem;
+    padding: 1rem 0;
+    font-size: 1.33rem;
+    margin-right: 0;
+  }
+}
 
 /*GENERAL STYLE*/
 html{
@@ -157,10 +222,6 @@ html{
   padding-left: 4rem;
   padding-top: 4rem;
   text-align: center;
-}
-
-.footercontainer{
-
 }
 
 .footerimg{
